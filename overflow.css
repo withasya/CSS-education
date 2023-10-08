@@ -1,0 +1,33 @@
+div.ör1{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 80px;
+    background-color: cornflowerblue;
+    overflow: visible;
+}
+div.ör2{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 200px;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+div.ör3{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 350px;
+    background-color:darkgray;
+    overflow: scroll;
+}
+div.ör4{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 500px;
+    background-color:indianred;
+    overflow:auto
+}

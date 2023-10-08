@@ -1,0 +1,50 @@
+body{
+    white-space: nowrap;
+    color: cadetblue;
+}
+p{
+    text-transform: capitalize;
+}
+p.ör1{
+    text-align: center;
+    letter-spacing: normal;
+    text-shadow: 0px 1px 4px;
+}
+p.ör2{
+    text-align: left;
+    color: white;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p.ör3{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-indent: 10px;
+    font-weight: lighter;
+}
+div.ör1{
+    text-align: justify;
+    background-color: rgb(250, 116, 54);
+    font-family: 'Times New Roman', Times, serif;
+}
+div.ör2{
+    line-height: 0.9;
+    font-family: sans-serif, Verdana, Tahoma, sans-serif;
+}
+div.ör3{
+    word-spacing: -2;
+    font-style: italic;
+}
+#önemli{
+    text-transform: uppercase;
+    text-decoration:wavy underline;
+    font-family: "Sofia", sans-serif;
+}
+#yanlıs{
+    text-decoration:red  line-through;
+    font-variant-caps: all-small-caps;
+    font-size: large;
+}

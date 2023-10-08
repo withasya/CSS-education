@@ -1,0 +1,36 @@
+img{
+    float: right; 
+}
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.boxkutu{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: aqua;
+}
+.box{
+    box-sizing: border-box;
+    width:30%;
+    margin:10px;
+    line-height:30px;
+    font-size: 20px;
+}
+div{
+    float: left;
+    padding: 20px;
+}
+  
+.div1{
+    background: red;
+}
+  
+.div2 {
+    background: yellow;
+}
+  
+.div3 {
+    background: green;
+}

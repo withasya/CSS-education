@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <style>
+        /*kenarlık stili*/
+        p.b1{border-style: dashed;}
+        p.b2{border-style: dotted;}
+        p.b3{border-style: double;}
+        p.b4{border-style:groove;}
+        p.b5{border-style: hidden;}
+        p.b6{border-style: inset;}
+        p.b7{border-style: outset;}
+        p.b8{border-style: none;}
+        p.b9{border-style: ridge;}
+        p.b10{border-style: solid;}
+        /*kenarlık kalınlığı üst-sağ-alt-sol*/
+        p.w1{border-width: 5px 10px;}
+        p.w2{border-width: 10px 25px;}
+        p.w3{border-width: 3px 20px 20px 4px;}
+        /*renk*/
+        p.r1{border-color: brown;}
+        p.r2{border-color: chartreuse;}
+        p.r3{border-color: red green sandybrown violet;}
+        /*ortaya karışık*/
+        p.karis{border-bottom: 6px solid red;}
+        /*kenar yuvarlaklığı*/
+        p.y1{
+        border: 2px solid red;
+        border-radius:15px;}
+        </style>
+    </head>
+    <body>
+        <p class="b1 r1">dashed</p>
+        <p class="b2 r2">dotted</p>
+        <p class="b3 y1">double</p>
+        <p class="b4 r3">groove</p>
+        <p class="b5">hidden</p>
+        <p class="b6">inset</p>
+        <p class="b7">outset</p>
+        <p class="b8">none</p>
+        <p class="b9 y1">ridge</p>
+        <p class="b10">solid</p>
+        <hr>
+        <p class="b10 w1 r1">solid</p>
+        <p class="b10 w2">solid</p>
+        <p class="b10 w3 r3">solid</p>
+        <p class="karis">solid</p>
+        <hr>
+    </body>
+</html>
